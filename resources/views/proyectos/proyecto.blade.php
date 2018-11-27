@@ -10,7 +10,7 @@
   <h3>Colaboradores:</h3>
   <ul>
   	@foreach($proyecto->empleados as $pe)
-  		<li><a href="/empleado/{{$pe->id}}">{{$pe->nombre}}</a></li>
+  		<li><a href="/empleado/{{$pe->id}}">{{$pe->nombre}}</a> Fecha Inicio: {{$pe->pivot->fechainicio}} Fecha Fin: {{$pe->pivot->fechafin}}</li>
   	@endforeach
   </ul>
 @endsection

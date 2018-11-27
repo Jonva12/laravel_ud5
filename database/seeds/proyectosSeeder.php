@@ -18,7 +18,7 @@ class proyectosSeeder extends Seeder
             	'fechainicio' => random_int(1500, 2500)."/".random_int(1, 12)."/".random_int(1, 28),
             	'fechafin' => random_int(1500, 2500)."/".random_int(1, 12)."/".random_int(1, 28),
             	'horasestimadas' => random_int(0, 8),
-        	]);
+            ]);
     	}
     }
 }
